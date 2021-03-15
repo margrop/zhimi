@@ -53,7 +53,7 @@ You can install it manually by copying the custom_component folder to your Home 
 # configuration.yaml
 
 climate:
-  - platform: zhimi
+  - platform: zhiair
     name: Master Bedroom Air Conditioning
     host: 192.168.23.71
     token: 7abccb4844876e12ec402d832f69784c
@@ -71,7 +71,7 @@ If the custom component doesn't work out of the box for your device please updat
 logger:
   default: warn
   logs:
-    custom_components.zhimi.climate: debug
+    custom_components.zhiair.climate: debug
     miio: debug
 ```
 
